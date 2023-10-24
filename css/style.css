@@ -1,0 +1,44 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+  }
+  
+  .console {
+    height: 100%;
+    background-color: black;
+    color: limegreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px;
+    overflow: hidden;
+  }
+  
+  #output {
+    white-space: pre-line;
+    margin-bottom: 10px;
+  }
+  
+  #input {
+    width: 100%;
+    border: 2px solid limegreen;
+    padding: 10px;
+    color: limegreen;
+    background-color: black;
+    outline: none;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  #name {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 6em;
+    color: limegreen;
+  }
+
+  #output-container {
+    flex: 1;
+    overflow-y: auto;
+  }
+  
