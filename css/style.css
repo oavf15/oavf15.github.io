@@ -3,6 +3,7 @@ body, html {
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
     background-color: black;
+    overflow: hidden;
   }
   
   .console {
