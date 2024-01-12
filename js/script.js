@@ -29,22 +29,22 @@ function processCommand(command) {
       break;
       case 'about':
         response = `
-          Oscar Vasquez-Flores is a computer science specialist with a strong foundation in software development and algorithm design. 
-          With a passion for solving complex problems and creating efficient solutions, Oscar has honed his skills in various programming languages 
-          and frameworks. He is dedicated to staying up-to-date with the latest technologies and industry trends to deliver innovative and 
-          impactful solutions in the field of computer science.
+          about me will go here....
         `;
         break;
     case 'skills':
         response = 'HTML, CSS, JavaScript, Node.js, Python, Java, MySQL, and Git';
         break;
     case 'contact':
-        response = 'Email: oscar@oscarvasquez.tech';
+        response = 'Email: oavf15@gmail.com';
         break;
     case 'resume':
         // download resume from /files/resume.pdf
         window.open('files/resume.pdf', '_blank'); // Open resume file in a new window or tab
         response = 'Opening resume...';
+        break;
+    case 'projects':
+        response = 'projects will go here....';
         break;
     default:
       response = 'Unknown command. Type "help" to see a list of available commands.';
